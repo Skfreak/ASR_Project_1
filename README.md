@@ -16,13 +16,16 @@ The sample code for the same is:
       
     2. For computing the Phoneme Error Rate (**PER or WER**): First we have a python file for computing the predicted labels sentence wise and building 2 text files. Name of the file is wer_computation.py and it also has the same 3 arguements as before.  
     The code is:  
-    `wer_computation.py --components=32 --delta=1 --coefficient=Yes`  
+    `python wer_computation.py --components=32 --delta=1 --coefficient=Yes`  
     This will generate the following two files:
         1. groundtruth.txt: that contains actual labels sentence wise.
         2. predictions.txt: that contains prected labels sentence wise.
     * After building these files, we have to pass these files to the command of asr_evaluation package and it will report the final word error rate.  
     Sample code is:  
-    `wer  groundtruth.txt  predictions.txt`  
+    `wer  groundtruth.txt  predictions.txt `   
+    `or`  
+    `wer .\files_for_WER_computation\groundTruth\groundTruth_delta_0_components_4_coefficient_True.txt .\files_for_WER_computation\predicted\predict_delta_0_components_4_coefficient_True.txt
+    `  
     
 3. We are also reporting some of the results as follows:
 
@@ -37,4 +40,4 @@ The sample code for the same is:
 | 7. | 2 | 2 | True | 85.24 | xx.xx |
 | 8. | 32 | 2 | False | 83.27 | xx.xx |
 | 9.| 64 | 2 | True | 81.28 | xx.xx |
-| 10.|256 | 2 | False | 81.28 | xx.xx |
+| 10.|256 | 2 | False | 83.68 | xx.xx |
