@@ -31,7 +31,7 @@ The sample code for the same is:
 
 | Model | No. of Components | Delta | Energy Coefficients | FER | WER |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1. | 4 | 0 | True | 86.03 | xx.xx |
+| 1. | 4 | 0 | True | 86.03 | 85.138 |
 | 2. | 16 | 0 | False | 86.20 | xx.xx |
 | 3. | 64 | 0 | True | 85.66 | xx.xx |
 | 4. | 8 | 1 | True | 83.70 | xx.xx |
