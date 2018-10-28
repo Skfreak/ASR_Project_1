@@ -1,4 +1,4 @@
-# ASR_assignment  
+# ASR Project 1  
 Contains Code and instructions for running the ASR Assignment1
 
 1. For Training: to train the models we have created the train.py file. We have included seperate for value of delta, number of components required for training the GMM and also whether to include the energy coefficients or not.  
