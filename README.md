@@ -28,11 +28,13 @@ The sample code for the same is:
 
 | Model | No. of Components | Delta | Energy Coefficients | FER | WER |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1. | 4 | 0 | True | xx.xx | xx.xx |
-| 2. | 16 | 0 | False | xx.xx | xx.xx |
-| 3. | 64 | 0 | True | xx.xx | xx.xx |
-| 4. | 8 | 0 | True | xx.xx | xx.xx |
-| 5. | 64 | 0 | False | xx.xx | xx.xx |
-| 6. | 2 | 0 | True | xx.xx | xx.xx |
-| 7. | 32 | 0 | False | xx.xx | xx.xx |
-| 8.| 64 | 0 | True | xx.xx | xx.xx |
+| 1. | 4 | 0 | True | 86.03 | xx.xx |
+| 2. | 16 | 0 | False | 86.20 | xx.xx |
+| 3. | 64 | 0 | True | 85.66 | xx.xx |
+| 4. | 8 | 1 | True | 83.70 | xx.xx |
+| 5. | 64 | 1 | False | 82.98 | xx.xx |
+| 6. | 128 | 1 | True | 81.27 | xx.xx |
+| 7. | 2 | 2 | True | 85.24 | xx.xx |
+| 8. | 32 | 2 | False | 83.27 | xx.xx |
+| 9.| 64 | 2 | True | 81.28 | xx.xx |
+| 10.|256 | 2 | False | 81.28 | xx.xx |
