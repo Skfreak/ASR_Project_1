@@ -24,7 +24,7 @@ The sample code for the same is:
     Sample code is:  
     `wer  groundtruth.txt  predictions.txt `   
     `or`  
-    `wer .\files_for_WER_computation\groundTruth\groundTruth_delta_0_components_4_coefficient_True.txt .\files_for_WER_computation\predicted\predict_delta_0_components_4_coefficient_True.txt
+    `wer .\files_for_WER_computation\groundTruth\groundTruth.txt .\files_for_WER_computation\predicted\predict_delta_0_components_4_coefficient_True.txt
     `  
     
 3. We are also reporting some of the results as follows:
