@@ -51,7 +51,6 @@ timit_testdf = pd.read_hdf("./features/mfcc/delta_" + str(delta) + "/test/timit_
 print("Test Data loaded.")
 
 # encoding labels
-lb.fit(timit_testdf['labels'])
 timit_testdf['labels_lb'] = lb.transform(timit_testdf['labels'])
 
 # Take features and label encoded labels
@@ -77,9 +76,9 @@ if(coefficient == False):
 # Get predictions on test data
 for i in unique_labels:
     if(coefficient == True):
-        directory = "./models_updated/delta_" + str(delta) + "_with_energy_coefficients" + "/" + str(components)
+        directory = "./models/delta_" + str(delta) + "_with_energy_coefficients" + "/" + str(components)
     else:
-        directory = "./models_updated/delta_" + str(delta) + "_without_energy_coefficients" + "/" + str(components)
+        directory = "./models/delta_" + str(delta) + "_without_energy_coefficients" + "/" + str(components)
     if not os.path.exists(directory):
         os.makedirs(directory)
 
