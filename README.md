@@ -6,7 +6,7 @@ The sample code for the same is:
 `python train.py --components=32 --delta=1 --coefficient=Yes`  
 
 2. For Testing there are 3 files that we have:
-    1. For calculating the Frame Error Rate (**FER**): We have tie file test.py. Again this file has the following arguements:
+    1. For calculating the Frame Error Rate (**FER**): We have the file test.py. Again this file has the following arguements:
         1. Number of components for GMM (to select the models that has been trained)
         2. Value of delta
         3. Whether you want to include the energy coefficients or not.  
@@ -41,3 +41,5 @@ The sample code for the same is:
 | 8. | 32 | 2 | False | 83.27 | 82.656 |
 | 9. | 128 | 2 | True | 81.28 | 80.75 |
 | 10.|256 | 2 | False | 83.68 | 83.114 |
+
+4. We have uploaded the above models.
